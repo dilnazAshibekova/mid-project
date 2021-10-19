@@ -1,0 +1,446 @@
+.bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    
+}
+
+#menu{
+    width: 60%;
+}
+
+#menu ul{   
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#menu li a{
+    color: #fff;
+    margin-right: 20px;
+    text-decoration: none;
+    font-family: 'Public Sans', sans-serif;
+}
+
+.menu_1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+header{
+    position: relative;
+    display: flex;
+    background: #000;
+    text-transform: uppercase;
+    
+}
+
+#login {
+    width: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#login a{
+    text-decoration: none;
+}
+
+#join{
+    width: 90px;
+}
+
+#login_btn{
+    width: 75px;
+}
+
+main {
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px auto;   
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+}
+
+#welcome{
+    margin-top: 180px;
+    margin-bottom: 110px;
+    text-align:center;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#welcome h1{
+    font-size: 100px;
+    letter-spacing: 7px;
+    text-shadow: 5px 0 0 #fff;
+    color: #000;
+    font-family: 'Public Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+
+#card{
+   
+    display: flex;
+    margin-top: 50px;
+}
+#imgtext{
+    background-color: #fff;
+    opacity: 80%;
+    padding: 20px;
+    width: 1000px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    text-align: justify;
+}
+#history{
+    justify-content: center;
+    align-items: center;
+    margin-right: 0%;
+}
+
+#history img{
+    height: 300px;
+}
+
+#table {
+    margin-bottom: 35px;
+    margin-top: 30px;
+    background-color: #fff;
+    text-align: center;
+    
+}
+
+#n_card{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    background-color: #fff;
+    
+    margin-right: 50px;
+}
+
+#n_card p{
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+
+ #h1_food h1{
+     margin-top: 60px;
+     font-size: 64px;
+ }
+
+.main_food {
+    font-family: Poppins;
+}
+
+section{
+    padding-top: 133px;
+}
+h2{
+    font-size: 50px;
+    margin-bottom: 70cpx;
+}
+.discription{
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.discription p, .discription #text_wrap{
+    font-family: Poppins;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.62em;
+    background-color: rgba(255, 255,255, 85%);
+    /* opacity: 85%; */
+}
+
+.des_left, .des_right {
+    width: 640px;
+}
+.img_des{
+    width: 1300px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.img_des img {
+    margin-bottom: 20px;
+}
+
+.imgs:hover{
+    opacity: 75%;
+}
+.button{
+    margin-top: 100px;
+    margin-bottom: 150px;
+    justify-content: center;
+    align-items: center;
+    color: honeydew;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding: 17px 47px;
+    border: 1px solid #fff;
+    width: 238px;
+    background-color: rgb(232, 182, 102);
+}
+
+.hr {
+    margin-top: 15px;
+    position: relative;
+}
+
+.hr hr{
+    border: 1px solid #000;
+}
+
+#about_food a {
+    text-decoration: none;
+}
+
+.h2{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.culture_1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 1300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Poppins;
+}
+#cul_txt{
+    width: 650px;
+    background-color: seashell;
+    opacity: 85%;
+    font-size: 19px;
+    font-family: Poppins;
+}
+#about_cul{
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
+#au{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    font-family: Poppins;
+}
+
+    
+.button_2{
+    margin-top: 50px;
+    margin-bottom: 60px;
+    margin-left: 15px;
+    justify-content: space-between;
+    align-items: center;
+    color: honeydew;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding: 17px 47px;
+    border: 1px solid #fff;
+    width: 220px;
+    background-color: rgb(104, 136, 115);
+
+}
+
+#ab_bt{
+    display: flex;
+
+    margin: 0px auto;   
+    align-items: center;
+    justify-content: center;
+
+}
+
+.abai_joly{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#bu{
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: Poppins;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nutu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.n_table{
+    margin-top: 15px;
+    background-color: rgba(255, 255, 255, 85%);
+    
+}
+.button_to{
+    margin-top: 100px;
+    margin-bottom: 150px;
+    justify-content: center;
+
+    align-items: center;
+    color: honeydew;
+    font-size: 17px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding: 17px 47px;
+    border: 1px solid #fff;
+    width: 238px;
+    background-color: rgb(0, 0, 0);
+
+}
+
+@media screen and (max-width: 1199px){
+    .container{
+        width: 960px;
+    }
+    .bg{
+        width: 100%;
+    }
+    #welcome{
+        font-size: 8vw;
+        margin-right: 20%;
+    }
+    .main_food{
+        width: 100%;
+    }
+    .discription{
+        width: 780px;
+    }
+    .des_left, .des_right {
+        width: 48%;
+        flex-wrap: wrap;
+    }
+    /*
+    .img_des img:nth-child(1){
+        width: 20%;
+
+    }
+    .img_des img:nth-child(2){
+        width: 20%;
+
+    }
+    .img_des img:nth-child(3){
+        width: 20%;
+
+    }
+    .img_des img:nth-child(4){
+        width: 20%;
+
+    }
+    .img_des img:nth-child(5){
+        width: 20%;
+
+    }
+    .img_des img:nth-child(6){
+        width: 20%;
+
+    }
+    */
+
+        
+    #card{
+        width: 75%;
+        margin-right: 25%;
+    }
+   #nutu{
+       width: 73%;
+       margin-right: 25%;
+   }
+   .n_table{
+       width: 70%;
+       margin-right: 20%;
+   }
+   #n_card{
+       width: 30%;
+       margin-right: 15%;
+       
+}
+#n_card img{
+    width: 100%;
+    display:  flex;
+}
+.culture_1{
+    width: 73%;
+    margin-right: 25%;
+    flex-wrap: wrap;
+}
+#img_cul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cul_txt{
+    width: 100%;
+}
+#au{
+    margin-right: 25%;
+}
+.abai_joly{
+    margin-right: 25%;
+    flex-wrap: wrap;
+    
+}
+.img_des{
+    width: 50%;
+    flex-wrap: wrap;
+    margin-right: 15%;
+}
+
+}
+
+@media screen and (max-width: 991px){
+    .container{
+        width: 720px;
+    }
+}
+@media screen and (max-width: 767px){
+    .container{
+        width: 540px;
+    }
+}
+@media screen and (max-width: 570px){
+    .container{
+        width: 100%;
+        padding: 0 15px
+    }
+}
